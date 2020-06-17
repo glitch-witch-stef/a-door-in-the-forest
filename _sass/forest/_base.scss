@@ -14,7 +14,12 @@ dl, dd, ol, ul, figure {
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
+  background-image: url('/src/img/texture-bg.png');
   background-color: $background-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $heading-font-family;
 }
 
 /*** Images */
