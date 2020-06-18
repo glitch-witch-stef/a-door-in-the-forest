@@ -1,0 +1,18 @@
+body {
+  font-size: $p-font-size;
+  color: $black;
+  background-image: url('/src/img/texture-bg.png');
+  background-color: $white;
+}
+
+.body-bg {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.wrapper {
+  max-width: $max-content-width;
+  margin: auto;
+  padding: $standard-spacing;
+}
