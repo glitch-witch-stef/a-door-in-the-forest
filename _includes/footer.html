@@ -1,7 +1,11 @@
 <footer class="site-footer h-card">
-  <div class="wrapper">
-    <div class="scissors">
-      <img src="/src/img/scissors.png" alt="scissors rendered in watercolor and ink">
+    <div class="footer-illustration">
+      <div class="scissors">
+        <img src="/src/img/scissors.png" alt="scissors rendered in watercolor and ink">
+      </div>
+      <div class="lines-2">
+        <img src="/src/img/lines-2.png" alt="">
+      </div>      
     </div>
 
     <h2 class="footer-heading">{{ site.title | escape }}</h2>
@@ -15,15 +19,12 @@
             {%- else -%}
               {{ site.title | escape }}
             {%- endif -%}
-            </li>
-            {%- if site.email -%}
+          </li>
+          {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
+          {%- endif -%}
         </ul>
       </div>
 
     </div>
-
-  </div>
-
 </footer>

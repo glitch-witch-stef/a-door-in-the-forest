@@ -1,0 +1,50 @@
+@mixin star-size($size) {
+  height: $size;
+  height: $size + $standard-spacing;
+  padding-left: $size + $standard-spacing;
+  background-size: $size;
+
+  .menu-link {
+    font-size: $size * 0.8;
+  }
+}
+
+$star-size: 50px;
+
+.menu {
+  max-width: $max-content-width / 2;
+  list-style: none;
+}
+
+.menu-item {
+  @include star-size($star-size);
+  display: flex;
+  align-items: center;
+  background-image: url("/src/img/star-1.png");
+  background-repeat: no-repeat;
+  background-position: $half-spacing center;
+  font-family: $title-font;
+
+  &:nth-of-type(1) {
+    @include star-size($star-size * 1) ;
+  }
+  &:nth-of-type(2) {
+    @include star-size($star-size * 1.2) ;
+  }
+  &:nth-of-type(3) {
+    @include star-size($star-size * 0.8) ;
+  }
+}
+
+.menu-link {
+  text-decoration: none;
+  opacity: 0.75;
+  color: $white;
+  text-shadow: -1px -2px 0 $light-purple, -2px -3px 0 $black, -1px -1px 0 $light-blue, 1px 0 0 $black;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: $medium-purple;
+  }
+}

@@ -1,3 +1,13 @@
 main {
   min-height: 80vw;
+  @media (min-width: $small) {
+    margin-top: 23vw;
+  }
+}
+
+.post-header {
+  @media (min-width: $small) {
+    text-align: right;
+    margin-right: 0vw;
+  }
 }

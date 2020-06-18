@@ -1,0 +1,20 @@
+.site-footer {
+  margin-top: $standard-spacing * 4;
+  padding: $triple-spacing;
+  text-align: right;
+}
+
+.footer-illustration {
+  position: relative;
+}
+
+.scissors {
+  width: 80%;
+}
+
+.lines-2 {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+}
