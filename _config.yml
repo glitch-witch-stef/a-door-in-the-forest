@@ -23,8 +23,8 @@ author: Annie
 email: annie_schermer@hotmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Annie's ponderings
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/a-door-in-the-forest" # the subpath of your site, e.g. /blog
+url: "https://annieschermer.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 plugins:
