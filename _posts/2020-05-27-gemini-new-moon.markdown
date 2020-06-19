@@ -69,5 +69,5 @@ Remind yourself of who you are. Remember the strength it has taken to come to th
 Let the moon be a true mirror for the true self that lives inside you. See yourself reflected in the light and the shadow of the moon.
 Test your courage by speaking the truth. Try it with trusted friends. When you hear (or say) something that grates against the heart, pause, and give voice to your heart, even if the words are uncertain. It could be as simple as, “That does not feel true for me.” And then try to say something that is. How else can we build a better and truer world?
 
-![Swiftness, Lust, Prudence, Futility, Success]({{ /images/may-27-spread-1.jpg | relative_url }})
-![Ruin, Fortune, Cruelty, The Hermit, Interference, Adjustment]({{ /images/may-27-spread-2.jpg | relative_url }})
+![Swiftness, Lust, Prudence, Futility, Success]({{ site.url }}{{ site.baseurl }}/images/may-27-spread-1.jpg)
+![Ruin, Fortune, Cruelty, The Hermit, Interference, Adjustment]({{ site.url }}{{ site.baseurl }}/images/may-27-spread-2.jpg)

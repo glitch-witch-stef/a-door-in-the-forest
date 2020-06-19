@@ -43,5 +43,5 @@ The invitation of the spirit/ higher self, is to take care now of your body. Dis
 
 We have a world to build!
 
-![The Moon]({{ /images/april-8-card.jpg | relative_url }})
-![The Moon, Power, Completion, Prince of Disks]({{ /images/april-8-spread.jpg | relative_url }})
+![The Moon]({{ site.url }}{{ site.baseurl }}/images/april-8-card.jpg)
+![The Moon, Power, Completion, Prince of Disks]({{ site.url }}{{ site.baseurl }}/images/april-8-spread.jpg)

@@ -49,5 +49,5 @@ Annie
 
 P.S. Please pass this message on to anyone who you think might want or need it.
 
-![Queen of Disks]({{ /images/march-24-card.jpg | relative_url }})
-![Strife, Completion, Peace, and Valor]({{ /images/march-24-spread.jpg | relative_url }})
+![Queen of Disks]({{ site.url }}{{ site.baseurl }}/images/march-24-card.jpg)
+![Strife, Completion, Peace, and Valor]({{ site.url }}{{ site.baseurl }}/images/march-24-spread.jpg)

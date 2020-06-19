@@ -26,5 +26,5 @@ This means our highest selves, our bright-burning spirits, are calling for us to
 
 Supporting this process is The Moon, XVIII; One aspect of which is Authenticity, and initiation into the True Self. Perhaps this is a time of disillusionment, disenchantment, and revelation of authentic truths. Perhaps that is uncomfortable. And perhaps it can yield a truer self, a truer life built of truer works; works that spring from a ground of honesty, values, and our core beliefs.
 
-![Princess of Disks]({{ /images/april-25-card.jpg | relative_url }})
-![Princess of Disks, The Magus, Works, Disappointment, The Moon]({{ /images/april-25-spread.jpg | relative_url }})
+![Princess of Disks]({{ site.url }}{{ site.baseurl }}/images/april-25-card.jpg)
+![Princess of Disks, The Magus, Works, Disappointment, The Moon]({{ site.url }}{{ site.baseurl }}/images/april-25-spread.jpg)
