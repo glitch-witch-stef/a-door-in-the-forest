@@ -36,7 +36,7 @@ $star-size: 50px;
   @include star-size($star-size);
   display: flex;
   align-items: center;
-  background-image: url("/src/img/star-1.png");
+  background-image: url("/a-door-in-the-forest/src/img/star-1.png");
   background-repeat: no-repeat;
   background-position: $half-spacing center;
   font-family: $title-font;
