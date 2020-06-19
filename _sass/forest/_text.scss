@@ -1,5 +1,13 @@
 a {
-  color: $dark-blue;
+  color: $darkest-blue;
+  transition: ease all 0.2s;
+  
+  &:hover,
+  &:active,
+  &:focus {
+    color: $dark-purple;
+    text-decoration: none;
+  }
 }
 
 p {

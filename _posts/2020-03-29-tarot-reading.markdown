@@ -3,6 +3,7 @@ layout: post
 title:  "Tarot Reading"
 date:   2020-03-24
 categories:
+  - new moon
   - tarot
 ---
 

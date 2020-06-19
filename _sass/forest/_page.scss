@@ -1,15 +1,26 @@
 body {
-  font-size: $p-font-size;
   color: $black;
-  background-image: url('/src/img/texture-bg.png');
   background-color: $white;
+  background-image: url("/src/img/texture-bg.png");
+  font-weight: $font-weight--light;
+  font-size: $p-font-size;
+  font-family: $serif;
   line-height: 1.5em;
+
+  @media (min-width: $small) {
+    font-weight: $font-weight--regular;
+  }
 }
 
 .body-bg {
   position: absolute;
-  top: 0;
   z-index: -1;
+  top: 0;
+  width: 100%;
+
+  img {
+    width: 100%;
+  }
 }
 
 .wrapper {

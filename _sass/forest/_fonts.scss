@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,700;1,400&family=Fondamento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,700;1,400&family=Fondamento&display=swap');
 @function strip-unit($number) {
   @if type-of($number) == 'number' and not unitless($number) {
     @return $number / ($number * 0 + 1);
@@ -10,9 +10,9 @@
 $serif: "Cormorant", sans-serif;
 $title-font: "Fondamento", sans-serif;
 $heading-font-family: $title-font;
-$base-font-family: $serif;
 
 // Font Weight Variables
+$font-weight--light: 300;
 $font-weight--regular: 400;
 $font-weight--bold: 700;
 $body-font-weight: $font-weight--regular;
@@ -27,7 +27,7 @@ $h5-scale: 1.4;
 $h6-scale: 1.2;
 $p-scale: 1;
 
-$min-base-font-size: 16px;
+$min-base-font-size: 18px;
 $max-base-font-size: 22px;
 
 // View width for fluid typography

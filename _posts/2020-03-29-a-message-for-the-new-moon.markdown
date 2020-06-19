@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A message for the New Moon"
-date:   2020-03-24 13:49:11 -0700
+date:   2020-03-24
 categories:
   - new moon
 ---

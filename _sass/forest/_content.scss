@@ -1,6 +1,14 @@
 main {
   @media (min-width: $small) {
-    margin-top: 10vw;
+    margin-top: 18vw;
+  }
+
+  @media (min-width: $large) {
+    margin-top: 22vw;
+  }
+
+  @media (min-width: $extra-large) {
+    margin-top: 26vw;
   }
 }
 
@@ -8,6 +16,12 @@ main {
   @media (min-width: $small) {
     text-align: right;
     margin-right: 0vw;
+  }
+}
+
+.post-list {
+  h3 {
+    margin-bottom: $half-spacing;
   }
 }
 
