@@ -7,10 +7,10 @@
 }
 
 // Font Family Variables
-$sans-serif: "Cormorant", sans-serif;
+$serif: "Cormorant", sans-serif;
 $title-font: "Fondamento", sans-serif;
 $heading-font-family: $title-font;
-$base-font-family: $sans-serif;
+$base-font-family: $serif;
 
 // Font Weight Variables
 $font-weight--regular: 400;
@@ -18,12 +18,12 @@ $font-weight--bold: 700;
 $body-font-weight: $font-weight--regular;
 
 // Fluid Typography: Major Third scale for headings/paragraphs
-$title-scale: 3.583;
-$h1-scale: 2.986;
-$h2-scale: 2.488;
-$h3-scale: 2.074;
-$h4-scale: 1.728;
-$h5-scale: 1.44;
+$title-scale: 3.6;
+$h1-scale: 3;
+$h2-scale: 2;
+$h3-scale: 1.8;
+$h4-scale: 1.6;
+$h5-scale: 1.4;
 $h6-scale: 1.2;
 $p-scale: 1;
 

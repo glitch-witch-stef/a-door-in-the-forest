@@ -5,17 +5,20 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $heading-font-family;
+  margin-top: $standard-spacing;
+  margin-bottom: $double-spacing;
   text-decoration: none;
+  font-family: $heading-font-family;
   line-height: 1em;
 }
 
 .site-title {
-  font-size: $h1-font-size;
-  text-shadow: -2px -1px 0 $dark-purple, 3px 4px 0 $light-blue, 2px 1px 0 $black;
   color: transparentize($light-purple, 0.5);
+  text-shadow: -2px -1px 0 $dark-purple, 3px 4px 0 $light-blue, 2px 1px 0 $black;
+  font-size: $h1-font-size;
 
   @media (min-width: $small) {
+    margin-left: $triple-spacing;
     font-size: $title-font-size;
   }
 
@@ -25,16 +28,26 @@ h6 {
 }
 
 h1 {
-  font-size: $h1-font-size;
+  margin-bottom: $standard-spacing;
   color: transparentize($light-blue, 0.5);
   text-shadow: -1px -1px 0 $dark-purple, 3px 4px 0 $white, 2px 1px 0 $black;
+  font-size: $h1-font-size;
 }
 
 h2 {
+  color: $darkest-purple;
+  text-shadow: -1px -1px 0 $light-blue, 2px 2px 0 $white;
   font-size: $h2-font-size;
 }
 
+h3,
+h4,
+h5 {
+  font-family: $serif;
+}
+
 h3 {
+  color: $darkest-purple;
   font-size: $h3-font-size;
 }
 

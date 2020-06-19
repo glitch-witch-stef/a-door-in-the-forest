@@ -1,7 +1,6 @@
 main {
-  min-height: 80vw;
   @media (min-width: $small) {
-    margin-top: 23vw;
+    margin-top: 10vw;
   }
 }
 
@@ -10,4 +9,10 @@ main {
     text-align: right;
     margin-right: 0vw;
   }
+}
+
+.home,
+.post-content {
+  max-width: $max-content-width * .6;
+  margin: auto;
 }
